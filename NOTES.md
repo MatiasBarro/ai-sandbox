@@ -1,0 +1,11 @@
+# To try
+- [ ] impecable
+- [ ] Ponytail
+- [ ] Episodic memory https://github.com/obra/episodic-memory
+- [ ] QMD https://github.com/tobi/qmd - MD Search tool
+- [ ] Conductor - https://www.conductor.build/ - Agent orchestator
+- [ ] Paperclip - https://github.com/paperclipai/paperclip - Organization orchestator
+- [ ] Tirith - https://github.com/sheeki03/tirith - Guardrail hook that runs before a tool is executed
+- Observability
+  - [ ] Helicone
+  - [ ] LangSmith
