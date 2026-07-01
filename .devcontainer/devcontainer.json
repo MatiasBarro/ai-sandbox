@@ -13,7 +13,8 @@
 			"installZsh": true,
 			"configureZshAsDefaultShell": true,
 			"installOhMyZsh": true
-    	}
+		},
+		"ghcr.io/dirien/devcontainer-feature-codex/codex:0": {}
 	},
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	"forwardPorts": [
@@ -36,10 +37,14 @@
 		"PATH": "/root/.local/share/pnpm/bin:${localEnv:PATH}"
 	},
 	"customizations": {
-    "vscode": {
-      "settings": {
-        "terminal.integrated.defaultProfile.linux": "zsh"
-      }
-    }
-  }
+		"vscode": {
+			"settings": {
+				"terminal.integrated.defaultProfile.linux": "zsh"
+			}
+		},
+	},
+	"runArgs": [
+		"--env-file",
+		"${localWorkspaceFolder}/.devcontainer/.env.local"
+	]
 }
